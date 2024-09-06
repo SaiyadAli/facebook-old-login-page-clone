@@ -1,0 +1,200 @@
+body{
+    margin:0;
+    font-family: Helvetica Neue,Helvetica,Arial, sans-serif;
+}
+
+
+header
+{
+    background-color:#3b5999;
+    width:100%;
+    height: 85px;
+}
+
+.facebook-logo
+{
+    width:50%;
+    padding-top :28px;
+    float:left;
+}
+.facebook-logo a
+{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 32px;
+        
+        margin-left: 170px;
+       
+}
+
+.login
+{
+    width:50%;
+    padding-top:1px;
+    padding-left:-1px;
+    float:left;
+}
+.login-input
+{
+  border-radius: 5px;
+}
+.login-table
+{
+    margin-left:60px;
+}
+.label
+{
+    color: white;
+
+}
+table a
+{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 11px;
+}
+table button{
+    background-color: #4268b3;
+    color:white;
+    cursor:pointer;
+}
+.login-intermediate-spacing
+{
+    margin-left:30px;
+}
+table button:hover
+{
+background-color:#29487e;
+}
+
+
+
+
+/* main class css starting page here i'm converting main class into 2 parts main-left
+& main right */
+main{
+    background:linear-gradient(#ffffff, #5e77a0);
+    height:600px;
+}
+.main-left
+{
+    width:50%;
+    float:left;
+    padding-top:10px;
+    
+
+}
+.main-right
+{
+    width:50%;
+    float:left;
+    padding-top: 10px;
+    padding-left: -3px;
+    
+}
+
+/* main left contain 2 parts
+1-h tag 
+2-img tag*/
+.main-left h2{
+    color: #0c1e46;
+    font-size: 25px;
+    font-family: arial;
+    
+    margin-left: 35px;
+}
+.main-left img
+{
+ width:100%;
+ height:250px;
+}
+form{
+    padding-top:10px;
+}
+/* form firstname and sur name styling */
+.signup-name
+{
+    width:40%;
+    float:left;
+    height:25px;
+    border:3px solid rgb(180, 198, 201);
+    border-radius:7px;
+    margin-bottom:5px;
+    font-size: 20px;
+    
+    
+}
+.surname
+{
+    margin-left:5%;
+}
+/* email and password input styling  */
+.signup-email-password
+{
+    width:87%;
+    height:25px;
+    border:3px solid rgb(180, 198, 201);
+    border-radius:7px;
+    margin-bottom:10px;
+    font-size:20px;
+}
+/* birthday and gender input styling */
+.grey-theme
+{
+  color:#818793 ;
+  font-size:17px;
+  font-weight:bold;
+}
+
+.signup-birthday
+{   
+    margin-top:10px;
+    height:25px;
+    margin-bottom:15px;
+
+}
+.signup-gender
+{
+    color: #484a51;
+    font-weight: bold;
+    font-size:17px;
+}
+/* form policy agreement  */
+.signup-policy
+{
+    width: 80%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #382c2c;
+
+}
+.signup-links{
+ text-decoration: none;
+}
+/* button*/
+.form-button
+{
+    padding-top:15px;
+}
+.signup-button
+{ 
+    font-size: 16px;
+    box-shadow: 1px 2px 3px 1px #3a6e23;
+    margin: 2px 0 5px 6px;
+    border: 1px solid #5f9c4c;
+    background-color: #5f9c4c;
+    color: #ffffff;
+    border-radius: 5px;
+    width:135px;
+    height: 30px;
+    cursor:pointer;
+
+}
+.signup-button:hover
+{
+    background-color: #467439;
+    border: 1px solid #467439;
+    box-shadow: 1px 2px 3px 1px #467439;
+}
+
